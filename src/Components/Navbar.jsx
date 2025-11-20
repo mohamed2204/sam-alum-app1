@@ -1,7 +1,7 @@
-import { Link, NavLink } from 'react-router-dom';
-import { assets } from '../assets/assets';
-import { useContext, useState } from 'react';
-import { ShopContext } from '../Context/ShopContext';
+import { Link, NavLink } from "react-router-dom";
+import { assets } from "../assets/assets";
+import { useContext, useState } from "react";
+import { ShopContext } from "../Context/ShopContext";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -30,6 +30,10 @@ const Navbar = () => {
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
+        <NavLink to="/testdb" className="flex flex-col items-center gap-1">
+          <p>TESTDB</p>
+          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+        </NavLink>
       </ul>
 
       <div className="flex items-center gap-6">
@@ -49,7 +53,6 @@ const Navbar = () => {
               className="w-5 cursor-pointer"
             />
           </Link>
-          
         </div>
 
         <Link to="/cart" className="relative ">
@@ -67,11 +70,11 @@ const Navbar = () => {
         />
       </div>
 
-      { /* Sidebar menu for small screens */}
+      {/* Sidebar menu for small screens */}
 
       <div
         className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white ease-in duration-300
-             ${visible ? 'w-full' : 'w-0'}`}
+             ${visible ? "w-full" : "w-0"}`}
       >
         <div className="flex flex-col text-gray-600 ">
           <div
@@ -91,8 +94,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/"
           >
-            {' '}
-            HOME{' '}
+            {" "}
+            HOME{" "}
           </NavLink>
           <NavLink
             onClick={() => {
@@ -101,8 +104,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/collection"
           >
-            {' '}
-            COLLECTION{' '}
+            {" "}
+            COLLECTION{" "}
           </NavLink>
           <NavLink
             onClick={() => {
@@ -111,8 +114,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/about"
           >
-            {' '}
-            ABOUT{' '}
+            {" "}
+            ABOUT{" "}
           </NavLink>
           <NavLink
             onClick={() => {
@@ -121,8 +124,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/contact"
           >
-            {' '}
-            CONTACT{' '}
+            {" "}
+            CONTACT{" "}
           </NavLink>
         </div>
       </div>

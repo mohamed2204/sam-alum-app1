@@ -14,6 +14,7 @@ import Footer from './Components/Footer';
 import SearchBar from './Components/SearchBar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import TestDB from './Pages/TestDB';
 
 console.log(toast);
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/testdb" element={<TestDB />} />
       </Routes>
 
       <Footer />

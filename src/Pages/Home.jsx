@@ -10,8 +10,8 @@ const Home = () => {
       <Hero />
       <LatestCollection />
       <BestSeller />
-      <OurPolicies />
-      <NewsLetterBox />
+      {/* <OurPolicies /> */}
+      {/* <NewsLetterBox /> */}
     </div>
   );
 };

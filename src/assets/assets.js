@@ -776,12 +776,12 @@ export const products1 = [
 export const products = [
   {
     _id: 'aaaaa',
-    name: "Fenêtre aluminium : une multitude de styles pour un esthétisme optimal",
+    name: "Porte vue balcon esthétisme optimal",
     description:
       "À la fois design, durable et isolante, la fenêtre aluminium est fréquemment plébiscitée au sein de foyers. Aussi bien dans le neuf que lors de travaux de rénovation, il s’agit d’un matériau idéal pour valoriser la maison. Ses nombreux atouts en font une excellente solution pour compléter une architecture moderne comme traditionnelle. La fenêtre aluminium affiche de remarquables performances et bénéficie d’une technologie à rupture de ponts thermiques. À la fois esthétique et tendance, elle répond à toutes les exigences de votre clientèle et offre un large choix de coloris.",
     price: 100,
     image: [p_img1],
-    category: 'Fenêtre',
+    category: 'Porte',
     subCategory: 'Aluminium',
     sizes: ['S', 'M', 'L'],
     date: 1716634345448,

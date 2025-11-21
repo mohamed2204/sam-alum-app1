@@ -15,6 +15,8 @@ import SearchBar from './Components/SearchBar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TestDB from './Pages/TestDB';
+import Example from './Components/Example';
+import Carousel from './Components/Carousel';
 
 console.log(toast);
 
@@ -37,7 +39,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
-        <Route path="/testdb" element={<TestDB />} />
+        {/* <Route path="/testdb" element={<TestDB />} /> */}
+        {/* <Route path="/testdb" element={<Example />} /> */}
+        <Route path="/testdb" element={<Carousel />} />
       </Routes>
 
       <Footer />

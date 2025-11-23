@@ -209,7 +209,7 @@ const Collection = () => {
       <div className="flex-1">
         {/* Title */}
         <div className="flex justify-between text-sm sm:text-xl lg:text-2xl mb-4">
-          <Title text1={'ALL'} text2={'COLLECTIONS'} />
+          <Title text1={'TOUTES'} text2={'COLLECTIONS'} />
 
           {/* Product Sort */}
           <select
@@ -219,9 +219,9 @@ const Collection = () => {
             value={sortType}
             className="border border-gray-300 text-sm px-2"
           >
-            <option value="relevent">Sort by: Relevent</option>
-            <option value="low-high">Sort by: Low to High</option>
-            <option value="high-low">Sort by: High to Low</option>
+            <option value="relevent">Trier par : Pertinent</option>
+            <option value="low-high">Trier par : Ventes flash</option>
+            <option value="high-low">Trier par : Denières ventes</option>
           </select>
         </div>
 

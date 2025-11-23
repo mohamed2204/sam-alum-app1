@@ -9,7 +9,7 @@ const Product = () => {
   const { products, currency, addToCart } = useContext(ShopContext);
   const [productsData, setProductsData] = useState(false);
   const [image, setImage] = useState('');
-  const [size, setSize] = useState('');
+  const [size, setSize] = useState('M');
 
   const fetchProductsData = async () => {
     products.map((product) => {

@@ -99,12 +99,12 @@ const Product = () => {
             </div> */}
           </div>
 
-          <button
+          {/* <button
             onClick={() => addToCart(productsData._id, size)}
             className="bg-black text-white py-3 px-8 text-sm active:bg-gray-700"
           >
             ADD TO CART
-          </button>
+          </button> */}
 
           <hr className="mt-8 sm:w-4/5" />
 
